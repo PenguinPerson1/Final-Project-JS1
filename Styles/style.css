@@ -7,8 +7,19 @@ font-family: 'Caveat Brush', cursive;
 font-family: 'Scheherazade', serif; */
 #Text0{
   font-family: 'Lora', serif;
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+#titleText{
+  position: absolute;
+  left: 150px;
+
 }
 #G{
+  position: absolute;
+  left: 150px;
+  top: 100px;
   background-color: rgb(0,0,0);
   border-radius: 12px;
   border: 2px solid rgb(0,0,0);
@@ -25,4 +36,44 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper-494x406.jpg");
+}
+#Title2{
+  position: absolute;
+  left: 1100px;
+  top: 15px;
+}
+#label1{
+  position: absolute;
+  left: 1200px;
+  top: 65px;
+}
+#input1{
+  position: absolute;
+  left: 1200px;
+  top: 100px;
+}
+#label2{
+  position: absolute;
+  left: 1200px;
+  top: 115px;
+}
+#input2{
+  position: absolute;
+  left: 1200px;
+  top: 150px;
+}
+#label3{
+  position: absolute;
+  left: 1200px;
+  top: 165px;
+}
+#input3{
+  position: absolute;
+  left: 1200px;
+  top: 200px;
+}
+#Submit{
+  position: absolute;
+  left: 1200px;
+  top: 230px;
 }
