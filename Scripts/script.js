@@ -27,7 +27,9 @@ $("#Submit").click(()=>{
   insultsV2.push(add2);
   insultsV3.push(add3);
   let Length=insultsV1.length;
-  console.log(insultsV1[insultsV1.length]);
+  document.getElementById('input1').value = ""
+  document.getElementById('input2').value = ""
+  document.getElementById('input3').value = ""
 });
 $("#G").click(() => {
   previn1=insult1;
